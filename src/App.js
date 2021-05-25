@@ -21,7 +21,7 @@ class App extends Component {
         <text>Share with friends!</text>
         <div className="Form">
           <input type="text" onChange={this.handleChangeTitle} placeholder="Title"/>
-          <input type="text" onChange={this.handleChangeUrl} placeholder="url"/>
+          <input type="url" onChange={this.handleChangeUrl} placeholder="url"/>
         </div>
         <SocialShare title={this.state.title} url={this.state.url} subject={this.state.title}/>
       </div>
