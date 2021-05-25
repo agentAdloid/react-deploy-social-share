@@ -24,6 +24,7 @@ class Demo extends Component {
             title={title}
             seprator="::"
             className="Demo__some-network__share-button"
+            subject={this.props.subject}
           >
             <EmailIcon size={32} round />
           </EmailShareButton>

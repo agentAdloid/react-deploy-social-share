@@ -23,7 +23,7 @@ class App extends Component {
           <input type="text" onChange={this.handleChangeTitle} placeholder="Title"/>
           <input type="text" onChange={this.handleChangeUrl} placeholder="url"/>
         </div>
-        <SocialShare title={this.state.title} url={this.state.url}/>
+        <SocialShare title={this.state.title} url={this.state.url} subject={this.state.title}/>
       </div>
     );
   }
